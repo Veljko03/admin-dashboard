@@ -1,0 +1,25 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 4fr;
+
+}
+.leftBar{
+    background-color: aliceblue;
+    grid-row: 1/3;
+    border: 1px solid black;
+    
+}
+.topBar{
+    background-color: blue;
+    grid-column: 2/3;
+}
+.content{
+    background-color: red;
+}
