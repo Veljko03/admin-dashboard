@@ -16,6 +16,8 @@ html {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: white;
+    font-weight: bolder;
     
     
     
@@ -36,38 +38,64 @@ html {
     justify-items: center;
 }
 .logo{
-    font-size: 32px;
-    display: grid;
-    padding-left: 30px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   font-size: 32px;
+   padding: 10px;
 }
-.home li{
-    font-size: 25px;
-    margin-bottom: 10px;
+.frog  {
+    height: 50px;
+    width: 50px;
 }
-.settings li{
+.home {
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
+}
+.leftBarIcons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.settings {
+    font-size: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
+}
+.con{
+    display: flex;
+    gap: 20px;
 }
 ul{
     list-style-type: none;
 }
 .buttons{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr 1fr ;
+    grid-template-columns: 3fr 2fr;
     justify-items: center;
 
 }
 button{
-    height: 30px;
+    height: 40px;
     width: 100px;
     color: white;
+    font-weight: bolder;
     font-size: 15px;
     background-color: #0ea5e9;
-    border-radius: 15px;
+    border-radius: 25px;
     border-width: 0;
 }
-
+img{
+    
+}
 .content{
     background-color: #cbd5e1;
     display: grid;
@@ -94,6 +122,15 @@ button{
     background-color: #fafafa;
     border-radius: 15px;
     padding-left: 20px;
+    border-left: 10px solid orange;
+    display: grid;
+}
+.cardIcons{
+    display: grid;
+    justify-self: end;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 30px;
+    gap: 30px;
 }
 .tre{
     background-color: #fafafa;
@@ -107,4 +144,20 @@ button{
 .pic{
     display: grid;
     grid-template-columns: 1fr 3fr;
+}
+.btnLeft{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-self: baseline;
+    margin-left: 40px;
+}
+.btnRight{
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+img{
+    width: 20px;
 }
