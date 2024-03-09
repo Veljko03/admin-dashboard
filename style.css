@@ -34,8 +34,43 @@ html {
 
 .search{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-items: center;
+    grid-template-columns: 5fr 3fr;
+    
+    
+}
+.searchLeft{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-self: center;
+    margin-left: 40px;
+    
+
+}
+.input{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+input{
+    border-radius: 20px;
+    border-width: 0;
+    background-color: #e5e7eb;
+}
+.searchRight{
+    display: flex;
+    align-self: center;
+    justify-content: end;
+    gap: 30px;
+    margin-right: 70px;
+    font-size: 25px;
+}
+.frog2{
+    width: 40px;
+    height: 40px;
+}
+.frog3{
+    width: 80px;
+    height: 80px;
 }
 .logo{
    display: flex;
@@ -150,6 +185,7 @@ img{
     grid-template-columns: 1fr 4fr;
     justify-self: baseline;
     margin-left: 40px;
+    gap: 15px;
 }
 .btnRight{
     align-self: center;
@@ -160,4 +196,7 @@ img{
 }
 img{
     width: 20px;
+}
+h4{
+    font-size: 20px;
 }
